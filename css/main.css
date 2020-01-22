@@ -5,6 +5,7 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
+  font-family: sans-serif;
   box-sizing: border-box;
 
   -moz-text-size-adjust: 100%;
@@ -15,4 +16,13 @@ html {
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
 }
